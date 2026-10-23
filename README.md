@@ -2,13 +2,11 @@
 
 A 2D platformer where the character isn't controlled by a human or trained by gradient descent — it's evolved. I built a simple Pygame platformer (platforms, gravity, jumping, a food pickup) and used [NEAT](https://neat-python.readthedocs.io/) (NeuroEvolution of Augmenting Topologies) to evolve a population of neural networks that learn to jump between platforms and reach the food, generation by generation.
 
-No AI tools were used to write any of this code — every line here is hand-written, and that's intentional. It's meant to demonstrate that I can build and reason about this stuff myself, and I'm keeping it that way going forward.
+No AI tools were used to write any of this code (apart from this README) — every line here is hand-written, and that's intentional. It's meant to demonstrate that I can build and reason about this stuff myself, and I'm keeping it that way going forward.
 
 ## Demo
 
 ![demo](assets/demo.gif)
-
-*(a short clip of the evolved agent clearing the obstacle course goes here)*
 
 ## How it works
 
